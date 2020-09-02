@@ -78,7 +78,6 @@ html {
 /* ******************* Section above this line is housekeeping ****************** */
 
 
-
 /* Color the background of items in the navigation bar and footer with the following colors: */
 /* Plan your Visit: `#FF764E` */
 nav :first-child{
@@ -115,10 +114,29 @@ h1 {
     font-family: 'Chelsea Market', cursive;
 }
 
-header section figure img {
-    border-radius: 50%;
-    max-width: 100%;
-    height: 15%;
+.intro div {
+    display: inline-block;
 }
 
+header section figure img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 10%;
+    height: auto;
+}
 
+/* History Section */
+
+/* More Info Section*/
+#more_info img{
+    width: 10%;
+    height: auto;
+}
+
+/* Footer */
+footer img{
+    width:100%;
+    height: 200px;
+    overflow:hidden;
+    display: block;
+}
