@@ -188,8 +188,7 @@ footer {
 .bkgrd{
     background-image:url("assets/footer_img.jpg");
     width:100%;
-    background-size:cover;/*fit inside the element, covers whole space*/
-    background-repeat:no-repeat; /*default has image repeating vertically and horizontally*/
+    background-size:cover;/*fit inside the element, covers whole space */
     height:40vh;
     margin:60px 0 0 0 ;
   }
