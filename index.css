@@ -51,15 +51,6 @@ table {
 /* ******************* CSS Reset Above This Line ******************* */
 
 
-<style> /*
-Roboto Mono - All text except h1*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-</style>
-
-<style>  /*Chelsea Market - h1 text*/
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-</style>
-
 * {
     box-sizing: border-box;  /*border and padding included in element size calculation, not in addition to. Margin is still not included.*/
     padding: 0; /*defaults everything to zero*/
@@ -69,7 +60,8 @@ Roboto Mono - All text except h1*/
 
 /* 1 rem = 10px instead of 16px browser default. */
 html {
-    font-size:62.5%
+    font-size:62.5%;
+    text-align:center;
 }
 
 
@@ -101,9 +93,9 @@ body{
 }
 
 /* nav header and footer sections */
-nav{
+/* nav{
     text-align: center;
-}
+} */
 
 nav a{
     text-decoration:none;/*removes underline from links*/
@@ -112,29 +104,47 @@ nav a{
     border-radius:10px;
     margin:30px 3%;
     width:auto; 
-    height:20px;
+    height:60px;
     padding:10px;  
     }
 
 
 /* header */
-h1 {
-    font-family: 'Chelsea Market', cursive;
-    font-size: 3rem;
+header {
+    display:inline-block;
 }
 
-.intro div {
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 7rem;
     display: inline-block;
+}
+
+#test p {
+    display: inline-block;
+}
+
+#intro div {
+    display: inline-block;
+    width: 60%;
 }
 
 header section figure img {
     display: inline-block;
     border-radius: 50%;
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    margin: 8% 5% 0 0;
 }
 
+
 /* History Section */
+#history {
+    color:white;
+    width: 90%;
+    margin: auto;
+    padding:2%;
+    background-color: #ddb9a3;
+}
 
 /* More Info Section*/
 .more_info p {
@@ -158,3 +168,7 @@ footer img{
     overflow:hidden;
     display: block;
 }
+
+
+
+
