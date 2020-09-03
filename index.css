@@ -89,7 +89,7 @@ nav :last-child{
 
 body{
     font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 /* nav header and footer sections */
@@ -101,10 +101,10 @@ nav a{
     text-decoration:none;/*removes underline from links*/
     color:white;
     display:inline-block;
-    border-radius:10px;
-    margin:30px 3%;
+    border-radius:15px;
+    margin:60px 5% 60px 5%;
     width:auto; 
-    height:60px;
+    height:80px;
     padding:10px;  
     }
 
@@ -120,36 +120,42 @@ h1 {
     display: inline-block;
 }
 
-#test p {
-    display: inline-block;
+#test .p1 {
+    margin:30px 0 0 0;
+}
+
+#test .p2 {
+    margin:30px 0 110px 0;
 }
 
 #intro div {
     display: inline-block;
     width: 60%;
+    /* margin:60px; */
 }
 
-header section figure img {
+header section img {
     display: inline-block;
     border-radius: 50%;
-    width: 20%;
-    margin: 8% 5% 0 0;
+    width: 30%;
+    margin: 2% 0% 0% 0%;
 }
 
 
 /* History Section */
 #history {
     color:white;
-    width: 90%;
+    width: 97%;
     margin: auto;
-    padding:2%;
+    padding:1.2%;
     background-color: #ddb9a3;
 }
 
 /* More Info Section*/
-.more_info p {
+#more_info p {
     font-size: 1.5rem;
-    color:red;
+    width:19%;
+    margin:auto;
 }
 
 #info_bold {
@@ -159,6 +165,11 @@ header section figure img {
 #more_info img{
     width: 10%;
     height: auto;
+    margin:30px;
+}
+
+.info_bold {
+    font-weight: bold;
 }
 
 /* Footer */
@@ -167,8 +178,19 @@ footer img{
     height: 200px;
     overflow:hidden;
     display: block;
+    margin:60px 0 0 0;
 }
 
+footer {
+    background-color: #F9E7DC;
+}
 
-
+.bkgrd{
+    background-image:url("assets/footer_img.jpg");
+    width:100%;
+    background-size:cover;/*fit inside the element, covers whole space*/
+    background-repeat:no-repeat; /*default has image repeating vertically and horizontally*/
+    height:40vh;
+    margin:60px 0 0 0 ;
+  }
 
